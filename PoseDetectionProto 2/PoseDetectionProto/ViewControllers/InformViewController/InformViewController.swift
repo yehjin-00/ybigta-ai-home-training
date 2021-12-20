@@ -4,36 +4,92 @@
 //
 //  Created by 정은서 on 2021/11/25.
 //
-
 import UIKit
 
 class InformViewController : UIViewController {
-    @IBOutlet var imgView: UIImageView!
-    @IBOutlet var pageControl: UIPageControl!
     
+    
+    
+    var pageControl: UIPageControl!
     var exerKind: String!
-    
-    var images = ["squat01", "squat02", "squat03"]
+    var informview: UIImageView!
+    var images = ["s1", "s2", "s3"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .black
+        view.backgroundColor = .white
         //checkingView()
+        informView()
+        addNextButton()
+        addPrevButton()
+        addOKButton()
         
+        if exerKind == "SQUAT"{
+        }
+    }
+    func addNextButton(){
+        let nextButton = UIButton(frame: CGRect(x: view.frame.width * 0.7,
+                                              y: view.frame.height * 0.8,
+                                              width: view.frame.width * 0.2,
+                                              height: view.frame.height * 0.05))
+        nextButton.setTitle("다음", for: UIControl.State.normal)
+        nextButton.setTitleColor(.white, for: UIControl.State.normal)
+        nextButton.backgroundColor = .lightGray
+        nextButton.alpha = 0.7
+        nextButton.addTarget(self, action: #selector(pageChangeup), for :UIControl.Event.touchUpInside)
+        view.addSubview(nextButton)
+    }
+    func addPrevButton(){
+        let prevButton = UIButton(frame: CGRect(x: view.frame.width * 0.1,
+                                              y: view.frame.height * 0.8,
+                                              width: view.frame.width * 0.2,
+                                              height: view.frame.height * 0.05))
+        prevButton.setTitle("이전", for: UIControl.State.normal)
+        prevButton.setTitleColor(.white, for: UIControl.State.normal)
+        prevButton.backgroundColor = .lightGray
+        prevButton.alpha = 0.7
+        prevButton.addTarget(self, action: #selector(pageChangedown), for : UIControl.Event.touchUpInside)
+        view.addSubview(prevButton)
+    }
+    
+    func informView(){
+        informview = UIImageView(frame: CGRect(x: view.frame.minX,
+                                               y: view.frame.height * 0,
+                                               width: view.frame.width,
+                                               height: view.frame.height * 0.8))
+        informview.contentMode = .scaleAspectFit
+        
+        pageControl = UIPageControl(frame: CGRect(x: 0,
+                                                y: self.view.frame.maxY - 215,
+                                                width: self.view.frame.maxX,
+                                                height:50))
+
         pageControl.numberOfPages = 3
         pageControl.currentPage = 0
         pageControl.pageIndicatorTintColor = UIColor.lightGray
         pageControl.currentPageIndicatorTintColor = UIColor.black
-        imgView.image = UIImage(named: images[0])
+        informview.image = UIImage(named: images[pageControl.currentPage])
         
-        addOKButton()
+        pageControl.addTarget(self, action: #selector(pageChangeup), for: .touchDragEnter)
+        pageControl.addTarget(self, action: #selector(pageChangedown), for: .touchDragExit)
+
         
-        if exerKind == "SQUAT"{
-            
-        }
-        
+        view.addSubview(self.informview)
+        view.addSubview(self.pageControl)
     }
     
+    @objc
+    func pageChangeup(){
+        pageControl.currentPage += 1
+        informview.image = UIImage(named: images[pageControl.currentPage])
+    }
+    @objc
+    func pageChangedown(){
+        pageControl.currentPage -= 1
+        informview.image = UIImage(named: images[pageControl.currentPage])
+    }
+    
+
     func checkingView(){
         let label = UILabel(frame: CGRect(x: view.frame.width*0.2, y: view.frame.height*0.05, width: view.frame.width * 0.6, height: view.frame.height * 0.1))
         label.text = exerKind
@@ -65,7 +121,7 @@ class InformViewController : UIViewController {
                                               height: view.frame.height * 0.05))
         okButton.setTitle("OK", for: UIControl.State.normal)
         okButton.setTitleColor(.white, for: UIControl.State.normal)
-        okButton.backgroundColor = .blue
+        okButton.backgroundColor = .gray
         okButton.alpha = 0.7
         okButton.addTarget(self, action: #selector(toPoseDetectionView), for: UIControl.Event.touchUpInside)
         view.addSubview(okButton)
@@ -82,8 +138,9 @@ class InformViewController : UIViewController {
             }
         }
     }
+    /*
     @IBAction func pageChange(_ sender: UIPageControl) {
         imgView.image = UIImage(named: images[pageControl.currentPage])
     }
-    
+    */
 }

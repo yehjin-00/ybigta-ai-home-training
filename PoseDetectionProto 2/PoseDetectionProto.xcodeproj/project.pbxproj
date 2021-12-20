@@ -29,7 +29,6 @@
 		90673907274B537D0000EA9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90673906274B537D0000EA9C /* ViewController.swift */; };
 		9067390A274B537D0000EA9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90673908274B537D0000EA9C /* Main.storyboard */; };
 		9067390C274B537E0000EA9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9067390B274B537E0000EA9C /* Assets.xcassets */; };
-		9067390F274B537E0000EA9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9067390D274B537E0000EA9C /* LaunchScreen.storyboard */; };
 		90673917274B54A10000EA9C /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90673916274B54A10000EA9C /* SelectViewController.swift */; };
 		9067391B274B56B90000EA9C /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9067391A274B56B90000EA9C /* logo.jpeg */; };
 		9067391D274B5FAF0000EA9C /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9067391C274B5FAF0000EA9C /* logo1.png */; };
@@ -44,7 +43,11 @@
 		9E3504F8276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504F5276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png */; };
 		9E3504F9276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504F6276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png */; };
 		9E3504FA276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504F7276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png */; };
-		9E3504FE276F1D1A000030AE /* 스플래시.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504FD276F1D1A000030AE /* 스플래시.png */; };
+		9E350502276F308E000030AE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E350501276F308E000030AE /* Launch Screen.storyboard */; };
+		9E350504276F31CB000030AE /* 스플래시.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E350503276F31CB000030AE /* 스플래시.png */; };
+		9E3505082770BDB4000030AE /* s3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3505052770BDB4000030AE /* s3.png */; };
+		9E3505092770BDB4000030AE /* s2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3505062770BDB4000030AE /* s2.png */; };
+		9E35050A2770BDB4000030AE /* s1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3505072770BDB4000030AE /* s1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +74,6 @@
 		90673906274B537D0000EA9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90673909274B537D0000EA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9067390B274B537E0000EA9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9067390E274B537E0000EA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90673910274B537E0000EA9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90673916274B54A10000EA9C /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
 		9067391A274B56B90000EA9C /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = SOURCE_ROOT; };
@@ -87,7 +89,11 @@
 		9E3504F5276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2021-12-19-03-56-18 002.png"; sourceTree = "<group>"; };
 		9E3504F6276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2021-12-19-03-58-31.png"; sourceTree = "<group>"; };
 		9E3504F7276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2021-12-19-03-56-18 001.png"; sourceTree = "<group>"; };
-		9E3504FD276F1D1A000030AE /* 스플래시.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스플래시.png"; sourceTree = "<group>"; };
+		9E350501276F308E000030AE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9E350503276F31CB000030AE /* 스플래시.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스플래시.png"; sourceTree = "<group>"; };
+		9E3505052770BDB4000030AE /* s3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s3.png; sourceTree = "<group>"; };
+		9E3505062770BDB4000030AE /* s2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2.png; sourceTree = "<group>"; };
+		9E3505072770BDB4000030AE /* s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +173,7 @@
 		906738F6274B537D0000EA9C = {
 			isa = PBXGroup;
 			children = (
+				9E350501276F308E000030AE /* Launch Screen.storyboard */,
 				90673901274B537D0000EA9C /* PoseDetectionProto */,
 				90673900274B537D0000EA9C /* Products */,
 			);
@@ -191,7 +198,6 @@
 				90673904274B537D0000EA9C /* SceneDelegate.swift */,
 				90673908274B537D0000EA9C /* Main.storyboard */,
 				9067390B274B537E0000EA9C /* Assets.xcassets */,
-				9067390D274B537E0000EA9C /* LaunchScreen.storyboard */,
 				90673910274B537E0000EA9C /* Info.plist */,
 			);
 			path = PoseDetectionProto;
@@ -212,6 +218,10 @@
 		90673919274B56880000EA9C /* image */ = {
 			isa = PBXGroup;
 			children = (
+				9E3505072770BDB4000030AE /* s1.png */,
+				9E3505062770BDB4000030AE /* s2.png */,
+				9E3505052770BDB4000030AE /* s3.png */,
+				9E350503276F31CB000030AE /* 스플래시.png */,
 				9E3504EB276E4DD5000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 001.png */,
 				9E3504EC276E4DD5000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 002.png */,
 				9E3504ED276E4DD5000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 003.png */,
@@ -230,7 +240,6 @@
 				9064735E274E0CCD0086EE25 /* squat.png */,
 				9067391C274B5FAF0000EA9C /* logo1.png */,
 				9067391A274B56B90000EA9C /* logo.jpeg */,
-				9E3504FD276F1D1A000030AE /* 스플래시.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -302,19 +311,22 @@
 				90647361274E0CCD0086EE25 /* burpee.png in Resources */,
 				90647362274E0CCD0086EE25 /* squat.png in Resources */,
 				9E3504EF276E4DD6000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 002.png in Resources */,
-				9067390F274B537E0000EA9C /* LaunchScreen.storyboard in Resources */,
 				9E3504F4276E5387000030AE /* 그림1.png in Resources */,
+				9E3505092770BDB4000030AE /* s2.png in Resources */,
+				9E350504276F31CB000030AE /* 스플래시.png in Resources */,
+				9E350502276F308E000030AE /* Launch Screen.storyboard in Resources */,
 				9E3504F0276E4DD6000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 003.png in Resources */,
 				90647360274E0CCD0086EE25 /* plank.png in Resources */,
 				9064735F274E0CCD0086EE25 /* lunge.png in Resources */,
-				9E3504FE276F1D1A000030AE /* 스플래시.png in Resources */,
 				9067390C274B537E0000EA9C /* Assets.xcassets in Resources */,
 				9E3504EE276E4DD6000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 001.png in Resources */,
+				9E3505082770BDB4000030AE /* s3.png in Resources */,
 				9E3504F9276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png in Resources */,
 				9E3504FA276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png in Resources */,
 				9E3504E9276E482E000030AE /* squat_button.png in Resources */,
 				9067391B274B56B90000EA9C /* logo.jpeg in Resources */,
 				90D5C487275907A4008851BE /* result.png in Resources */,
+				9E35050A2770BDB4000030AE /* s1.png in Resources */,
 				9E3504F8276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png in Resources */,
 				9067391D274B5FAF0000EA9C /* logo1.png in Resources */,
 				9E3504EA276E482E000030AE /* plank_button.png in Resources */,
@@ -357,14 +369,6 @@
 				90673909274B537D0000EA9C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9067390D274B537E0000EA9C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9067390E274B537E0000EA9C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -496,8 +500,9 @@
 				DEVELOPMENT_TEAM = L6U78J7MGY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PoseDetectionProto/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 쓰고싶어요!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -524,8 +529,9 @@
 				DEVELOPMENT_TEAM = L6U78J7MGY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PoseDetectionProto/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 쓰고싶어요!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
