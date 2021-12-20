@@ -44,6 +44,9 @@
 		9E3504F8276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504F5276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png */; };
 		9E3504F9276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504F6276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png */; };
 		9E3504FA276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3504F7276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png */; };
+		C538ACF5276F2A240009A4D6 /* s3.png in Resources */ = {isa = PBXBuildFile; fileRef = C538ACF2276F2A240009A4D6 /* s3.png */; };
+		C538ACF6276F2A240009A4D6 /* s2.png in Resources */ = {isa = PBXBuildFile; fileRef = C538ACF3276F2A240009A4D6 /* s2.png */; };
+		C538ACF7276F2A240009A4D6 /* s1.png in Resources */ = {isa = PBXBuildFile; fileRef = C538ACF4276F2A240009A4D6 /* s1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +89,9 @@
 		9E3504F5276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2021-12-19-03-56-18 002.png"; sourceTree = "<group>"; };
 		9E3504F6276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2021-12-19-03-58-31.png"; sourceTree = "<group>"; };
 		9E3504F7276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2021-12-19-03-56-18 001.png"; sourceTree = "<group>"; };
+		C538ACF2276F2A240009A4D6 /* s3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s3.png; sourceTree = "<group>"; };
+		C538ACF3276F2A240009A4D6 /* s2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2.png; sourceTree = "<group>"; };
+		C538ACF4276F2A240009A4D6 /* s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +233,9 @@
 				9064735C274E0CCD0086EE25 /* plank.png */,
 				9064735E274E0CCD0086EE25 /* squat.png */,
 				9067391C274B5FAF0000EA9C /* logo1.png */,
+				C538ACF4276F2A240009A4D6 /* s1.png */,
+				C538ACF3276F2A240009A4D6 /* s2.png */,
+				C538ACF2276F2A240009A4D6 /* s3.png */,
 				9067391A274B56B90000EA9C /* logo.jpeg */,
 			);
 			path = image;
@@ -296,15 +305,18 @@
 			files = (
 				9E3504E8276E482E000030AE /* pushup_button.png in Resources */,
 				905F17582758B2D8003856D7 /* information.png in Resources */,
+				C538ACF6276F2A240009A4D6 /* s2.png in Resources */,
 				90647361274E0CCD0086EE25 /* burpee.png in Resources */,
 				90647362274E0CCD0086EE25 /* squat.png in Resources */,
 				9E3504EF276E4DD6000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 002.png in Resources */,
+				C538ACF5276F2A240009A4D6 /* s3.png in Resources */,
 				9067390F274B537E0000EA9C /* LaunchScreen.storyboard in Resources */,
 				9E3504F4276E5387000030AE /* 그림1.png in Resources */,
 				9E3504F0276E4DD6000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 003.png in Resources */,
 				90647360274E0CCD0086EE25 /* plank.png in Resources */,
 				9064735F274E0CCD0086EE25 /* lunge.png in Resources */,
 				9067390C274B537E0000EA9C /* Assets.xcassets in Resources */,
+				C538ACF7276F2A240009A4D6 /* s1.png in Resources */,
 				9E3504EE276E4DD6000030AE /* KakaoTalk_Photo_2021-12-19-02-11-20 001.png in Resources */,
 				9E3504F9276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-58-31.png in Resources */,
 				9E3504FA276E66FC000030AE /* KakaoTalk_Photo_2021-12-19-03-56-18 001.png in Resources */,
@@ -489,9 +501,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L6U78J7MGY;
+				DEVELOPMENT_TEAM = 9Y6T8SHB2C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PoseDetectionProto/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 쓰고싶어요!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -502,7 +515,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eunseo.PoseDetectionProto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunseo56.PoseDetectionProto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -517,9 +530,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L6U78J7MGY;
+				DEVELOPMENT_TEAM = 9Y6T8SHB2C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PoseDetectionProto/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 쓰고싶어요!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -530,7 +544,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eunseo.PoseDetectionProto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eunseo56.PoseDetectionProto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

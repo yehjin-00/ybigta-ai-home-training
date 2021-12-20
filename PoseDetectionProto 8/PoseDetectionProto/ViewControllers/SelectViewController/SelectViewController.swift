@@ -9,7 +9,6 @@ import Foundation
 
 class SelectViewController: UIViewController{
     
-    
     var requireExer: UILabel!
     var requireExer2: UILabel!
     var plankButton: UIButton!
@@ -85,7 +84,6 @@ class SelectViewController: UIViewController{
     
     
     func createOutlet(){
-        
         requireExer = UILabel(frame: CGRect(x: view.frame.width*0.1,
                                             y: view.frame.height*0.1,
                                             width: view.frame.width*0.8,
